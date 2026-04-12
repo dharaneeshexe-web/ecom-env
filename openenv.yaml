@@ -1,0 +1,104 @@
+name: ecommerce-return-agent
+version: "1.0"
+description: >
+  An OpenEnv-compliant reinforcement-learning environment for automating
+  e-commerce return decisions using an LLM agent.
+
+# -- Environment metadata -----------------------------------------------------
+env_id: EcommerceReturn-v1
+env_file: env.py
+env_class: EcommerceReturnEnv
+
+# -- Observation space --------------------------------------------------------
+observation_space:
+  - name: product_price
+    type: float
+    range: [10, 500]
+    unit: USD
+  - name: customer_rating
+    type: float
+    range: [1, 5]
+  - name: return_reason
+    type: int
+    range: [0, 4]
+    labels:
+      0: defective_item
+      1: wrong_item_shipped
+      2: changed_mind
+      3: arrived_late
+      4: better_price_found
+  - name: days_since_purchase
+    type: int
+    range: [1, 30]
+    unit: days
+  - name: fraud_risk
+    type: float
+    range: [0, 1]
+  - name: order_value_tier
+    type: str
+    values: [budget, medium, premium]
+  - name: customer_type
+    type: str
+    values: [new, loyal, fraudster]
+  - name: is_inspected
+    type: bool
+
+# -- Action space -------------------------------------------------------------
+action_space:
+  type: discrete
+  n: 4
+  labels:
+    0: approve_full_refund
+    1: reject_return
+    2: offer_partial_refund
+    3: inspect_return
+
+# -- Tasks --------------------------------------------------------------------
+tasks:
+  - id: easy
+    fraud_level: 0.15
+    n_steps: 50
+    price_range: [10, 150]
+    partial_refund_enabled: false
+  - id: medium
+    fraud_level: 0.40
+    n_steps: 75
+    price_range: [10, 350]
+    partial_refund_enabled: true
+  - id: hard
+    fraud_level: 0.70
+    n_steps: 100
+    price_range: [10, 500]
+    partial_refund_enabled: true
+
+# -- Grading ------------------------------------------------------------------
+grader_file: grader.py
+grader_function: grade
+score_range: [0, 1]
+score_weights:
+  profit: 0.50
+  fraud_prevention: 0.30
+  decision_accuracy: 0.20
+
+# -- Reproducibility ----------------------------------------------------------
+default_seed: 42
+deterministic: true
+
+# -- LLM integration ----------------------------------------------------------
+llm:
+  provider: openai-compatible
+  model: Qwen/Qwen2.5-72B-Instruct
+  api_key_env: HF_TOKEN
+  base_url_env: API_BASE_URL
+
+# -- Deployment ---------------------------------------------------------------
+docker:
+  image: python:3.11-slim
+  dockerfile: Dockerfile
+  entrypoint: ["python", "-m", "server.app"]
+  entry_point: server:main
+
+huggingface:
+  space_sdk: docker
+  entry_file: server.py
+  app_port: 7860

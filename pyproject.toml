@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "ecommerce-return-env"
+version = "1.0.0"
+description = "OpenEnv-compliant RL environment for e-commerce return decision automation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+keywords = ["openenv", "reinforcement-learning", "ecommerce", "fraud-detection"]
+dependencies = [
+    "numpy>=1.26",
+    "pydantic>=2.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+    "openai>=1.0.0",
+    "httpx>=0.24.0",
+    "fpdf2>=2.7.0",
+    "google-generativeai>=0.5.0",
+    "openenv-core>=0.2.0",
+    "setuptools",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+server = "server:app"
+ecom-inference = "inference:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*.py"]
+
+[tool.pytest.ini_options]
+testpaths = ["test_grader.py"]

@@ -1,0 +1,31 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7860:7860"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - HF_TOKEN=${HF_TOKEN:-}
+      - API_BASE_URL=${API_BASE_URL:-https://router.huggingface.co/v1}
+      - MODEL_NAME=${MODEL_NAME:-Qwen/Qwen2.5-72B-Instruct}
+    networks:
+      - ecommerce-net
+
+  web:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    networks:
+      - ecommerce-net
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:7860
+
+networks:
+  ecommerce-net:
+    driver: bridge

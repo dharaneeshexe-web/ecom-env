@@ -1,0 +1,3085 @@
+{
+  "summary_scores": {
+    "easy": 0.5362,
+    "medium": 0.9448,
+    "hard": 0.966
+  },
+  "logs": [
+    {
+      "task": "easy",
+      "step": 0,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": -5.0
+    },
+    {
+      "task": "easy",
+      "step": 1,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 12.004900273877354,
+        "fraud_intercepted": 12.004900273877354
+      },
+      "cumulative_profit": 7.004900273877354
+    },
+    {
+      "task": "easy",
+      "step": 2,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 3.004900273877354
+    },
+    {
+      "task": "easy",
+      "step": 2,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": -1.9950997261226462
+    },
+    {
+      "task": "easy",
+      "step": 3,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": -5.995099726122646
+    },
+    {
+      "task": "easy",
+      "step": 4,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 9.004900273877354
+    },
+    {
+      "task": "easy",
+      "step": 5,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 5.004900273877354
+    },
+    {
+      "task": "easy",
+      "step": 6,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 1.0049002738773538
+    },
+    {
+      "task": "easy",
+      "step": 7,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 9.004900273877354
+    },
+    {
+      "task": "easy",
+      "step": 7,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 4.004900273877354
+    },
+    {
+      "task": "easy",
+      "step": 8,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 3.798714834651517,
+        "fraud_intercepted": 3.798714834651517
+      },
+      "cumulative_profit": 7.803615108528871
+    },
+    {
+      "task": "easy",
+      "step": 9,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "marginal_refund": -8.909785029044112
+      },
+      "cumulative_profit": -1.1061699205152413
+    },
+    {
+      "task": "easy",
+      "step": 10,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 6.893830079484759
+    },
+    {
+      "task": "easy",
+      "step": 11,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 2.8938300794847587
+    },
+    {
+      "task": "easy",
+      "step": 12,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": -1.1061699205152413
+    },
+    {
+      "task": "easy",
+      "step": 13,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 13.893830079484758
+    },
+    {
+      "task": "easy",
+      "step": 14,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -8.0
+      },
+      "cumulative_profit": 5.893830079484758
+    },
+    {
+      "task": "easy",
+      "step": 15,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 20.893830079484758
+    },
+    {
+      "task": "easy",
+      "step": 16,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 16.893830079484758
+    },
+    {
+      "task": "easy",
+      "step": 17,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 24.893830079484758
+    },
+    {
+      "task": "easy",
+      "step": 18,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 20.893830079484758
+    },
+    {
+      "task": "easy",
+      "step": 19,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 35.89383007948476
+    },
+    {
+      "task": "easy",
+      "step": 19,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 30.893830079484758
+    },
+    {
+      "task": "easy",
+      "step": 20,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 3.0233386441246566,
+        "fraud_intercepted": 3.0233386441246566
+      },
+      "cumulative_profit": 33.917168723609414
+    },
+    {
+      "task": "easy",
+      "step": 21,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -8.0
+      },
+      "cumulative_profit": 25.917168723609414
+    },
+    {
+      "task": "easy",
+      "step": 22,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 7.813216631734246,
+        "fraud_intercepted": 7.813216631734246
+      },
+      "cumulative_profit": 33.73038535534366
+    },
+    {
+      "task": "easy",
+      "step": 23,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 48.73038535534366
+    },
+    {
+      "task": "easy",
+      "step": 24,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 56.73038535534366
+    },
+    {
+      "task": "easy",
+      "step": 25,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 64.73038535534366
+    },
+    {
+      "task": "easy",
+      "step": 25,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 59.73038535534366
+    },
+    {
+      "task": "easy",
+      "step": 26,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 67.73038535534366
+    },
+    {
+      "task": "easy",
+      "step": 27,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 82.73038535534366
+    },
+    {
+      "task": "easy",
+      "step": 28,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "rejection_gain": 11.48051227239729,
+        "fraud_intercepted": 11.48051227239729
+      },
+      "cumulative_profit": 94.21089762774095
+    },
+    {
+      "task": "easy",
+      "step": 28,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 89.21089762774095
+    },
+    {
+      "task": "easy",
+      "step": 29,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 6.231208204231941,
+        "fraud_intercepted": 6.231208204231941
+      },
+      "cumulative_profit": 95.4421058319729
+    },
+    {
+      "task": "easy",
+      "step": 30,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 110.4421058319729
+    },
+    {
+      "task": "easy",
+      "step": 30,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 105.4421058319729
+    },
+    {
+      "task": "easy",
+      "step": 31,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 5.344531420601327,
+        "fraud_intercepted": 5.344531420601327
+      },
+      "cumulative_profit": 110.78663725257422
+    },
+    {
+      "task": "easy",
+      "step": 32,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -8.0
+      },
+      "cumulative_profit": 102.78663725257422
+    },
+    {
+      "task": "easy",
+      "step": 33,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 98.78663725257422
+    },
+    {
+      "task": "easy",
+      "step": 34,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 106.78663725257422
+    },
+    {
+      "task": "easy",
+      "step": 34,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 101.78663725257422
+    },
+    {
+      "task": "easy",
+      "step": 35,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 13.947318010368381,
+        "fraud_intercepted": 13.947318010368381
+      },
+      "cumulative_profit": 115.7339552629426
+    },
+    {
+      "task": "easy",
+      "step": 35,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 110.7339552629426
+    },
+    {
+      "task": "easy",
+      "step": 36,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 118.7339552629426
+    },
+    {
+      "task": "easy",
+      "step": 37,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -8.0
+      },
+      "cumulative_profit": 110.7339552629426
+    },
+    {
+      "task": "easy",
+      "step": 38,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 106.7339552629426
+    },
+    {
+      "task": "easy",
+      "step": 39,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 102.7339552629426
+    },
+    {
+      "task": "easy",
+      "step": 39,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 97.7339552629426
+    },
+    {
+      "task": "easy",
+      "step": 40,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 2.4738931179577497,
+        "fraud_intercepted": 2.4738931179577497
+      },
+      "cumulative_profit": 100.20784838090034
+    },
+    {
+      "task": "easy",
+      "step": 41,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "marginal_refund": -3.617048473915196
+      },
+      "cumulative_profit": 96.59079990698515
+    },
+    {
+      "task": "easy",
+      "step": 42,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -8.0
+      },
+      "cumulative_profit": 88.59079990698515
+    },
+    {
+      "task": "easy",
+      "step": 43,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "rejection_gain": 8.06336731831122,
+        "fraud_intercepted": 8.06336731831122
+      },
+      "cumulative_profit": 96.65416722529638
+    },
+    {
+      "task": "easy",
+      "step": 44,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "marginal_refund": -10.796708549278582
+      },
+      "cumulative_profit": 85.8574586760178
+    },
+    {
+      "task": "easy",
+      "step": 45,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -8.0
+      },
+      "cumulative_profit": 77.8574586760178
+    },
+    {
+      "task": "easy",
+      "step": 46,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 73.8574586760178
+    },
+    {
+      "task": "easy",
+      "step": 47,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 81.8574586760178
+    },
+    {
+      "task": "easy",
+      "step": 48,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "wrong_rejection_penalty": -4.0
+      },
+      "cumulative_profit": 77.8574586760178
+    },
+    {
+      "task": "easy",
+      "step": 48,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 72.8574586760178
+    },
+    {
+      "task": "easy",
+      "step": 49,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 80.8574586760178
+    },
+    {
+      "task": "easy",
+      "step": 50,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 88.8574586760178
+    },
+    {
+      "task": "medium",
+      "step": 0,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": -5.0
+    },
+    {
+      "task": "medium",
+      "step": 1,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 27.726186379416433,
+        "fraud_intercepted": 27.726186379416433
+      },
+      "cumulative_profit": 22.726186379416433
+    },
+    {
+      "task": "medium",
+      "step": 2,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 26.726186379416433
+    },
+    {
+      "task": "medium",
+      "step": 2,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 21.726186379416433
+    },
+    {
+      "task": "medium",
+      "step": 3,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 25.726186379416433
+    },
+    {
+      "task": "medium",
+      "step": 4,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 40.72618637941643
+    },
+    {
+      "task": "medium",
+      "step": 4,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 35.72618637941643
+    },
+    {
+      "task": "medium",
+      "step": 5,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 12.078062176697166,
+        "fraud_intercepted": 12.078062176697166
+      },
+      "cumulative_profit": 47.8042485561136
+    },
+    {
+      "task": "medium",
+      "step": 6,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 51.8042485561136
+    },
+    {
+      "task": "medium",
+      "step": 7,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 59.8042485561136
+    },
+    {
+      "task": "medium",
+      "step": 7,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 54.8042485561136
+    },
+    {
+      "task": "medium",
+      "step": 8,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 7.796878884153684,
+        "fraud_intercepted": 7.796878884153684
+      },
+      "cumulative_profit": 62.601127440267284
+    },
+    {
+      "task": "medium",
+      "step": 9,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "marginal_refund": -19.923763641964268
+      },
+      "cumulative_profit": 42.67736379830302
+    },
+    {
+      "task": "medium",
+      "step": 10,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 50.67736379830302
+    },
+    {
+      "task": "medium",
+      "step": 11,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 15.848391233900323,
+        "fraud_intercepted": 15.848391233900323
+      },
+      "cumulative_profit": 66.52575503220334
+    },
+    {
+      "task": "medium",
+      "step": 11,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 61.525755032203335
+    },
+    {
+      "task": "medium",
+      "step": 12,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 10.567052328747884,
+        "fraud_intercepted": 10.567052328747884
+      },
+      "cumulative_profit": 72.09280736095121
+    },
+    {
+      "task": "medium",
+      "step": 13,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 87.09280736095121
+    },
+    {
+      "task": "medium",
+      "step": 14,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 91.09280736095121
+    },
+    {
+      "task": "medium",
+      "step": 15,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 106.09280736095121
+    },
+    {
+      "task": "medium",
+      "step": 16,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 114.09280736095121
+    },
+    {
+      "task": "medium",
+      "step": 17,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 118.09280736095121
+    },
+    {
+      "task": "medium",
+      "step": 18,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 126.09280736095121
+    },
+    {
+      "task": "medium",
+      "step": 18,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 121.09280736095121
+    },
+    {
+      "task": "medium",
+      "step": 19,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 23.09478445286388,
+        "fraud_intercepted": 23.09478445286388
+      },
+      "cumulative_profit": 144.1875918138151
+    },
+    {
+      "task": "medium",
+      "step": 19,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 139.1875918138151
+    },
+    {
+      "task": "medium",
+      "step": 20,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 5.913822421445595,
+        "fraud_intercepted": 5.913822421445595
+      },
+      "cumulative_profit": 145.10141423526068
+    },
+    {
+      "task": "medium",
+      "step": 21,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 149.10141423526068
+    },
+    {
+      "task": "medium",
+      "step": 22,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 17.546383248497452,
+        "fraud_intercepted": 17.546383248497452
+      },
+      "cumulative_profit": 166.64779748375813
+    },
+    {
+      "task": "medium",
+      "step": 23,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 181.64779748375813
+    },
+    {
+      "task": "medium",
+      "step": 24,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 189.64779748375813
+    },
+    {
+      "task": "medium",
+      "step": 25,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 197.64779748375813
+    },
+    {
+      "task": "medium",
+      "step": 25,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 192.64779748375813
+    },
+    {
+      "task": "medium",
+      "step": 26,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 200.64779748375813
+    },
+    {
+      "task": "medium",
+      "step": 27,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 215.64779748375813
+    },
+    {
+      "task": "medium",
+      "step": 28,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -52.90534532307254
+      },
+      "cumulative_profit": 166.7424521606856
+    },
+    {
+      "task": "medium",
+      "step": 28,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 161.7424521606856
+    },
+    {
+      "task": "medium",
+      "step": 29,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 13.704362781706141,
+        "fraud_intercepted": 13.704362781706141
+      },
+      "cumulative_profit": 175.44681494239174
+    },
+    {
+      "task": "medium",
+      "step": 30,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 190.44681494239174
+    },
+    {
+      "task": "medium",
+      "step": 30,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 185.44681494239174
+    },
+    {
+      "task": "medium",
+      "step": 31,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 11.551004878603223,
+        "fraud_intercepted": 11.551004878603223
+      },
+      "cumulative_profit": 196.99781982099495
+    },
+    {
+      "task": "medium",
+      "step": 32,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 200.99781982099495
+    },
+    {
+      "task": "medium",
+      "step": 33,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 204.99781982099495
+    },
+    {
+      "task": "medium",
+      "step": 33,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 199.99781982099495
+    },
+    {
+      "task": "medium",
+      "step": 34,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 14.517658590047981,
+        "fraud_intercepted": 14.517658590047981
+      },
+      "cumulative_profit": 214.51547841104292
+    },
+    {
+      "task": "medium",
+      "step": 34,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 209.51547841104292
+    },
+    {
+      "task": "medium",
+      "step": 35,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 32.44348659660892,
+        "fraud_intercepted": 32.44348659660892
+      },
+      "cumulative_profit": 241.95896500765184
+    },
+    {
+      "task": "medium",
+      "step": 35,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 236.95896500765184
+    },
+    {
+      "task": "medium",
+      "step": 36,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 244.95896500765184
+    },
+    {
+      "task": "medium",
+      "step": 37,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 248.95896500765184
+    },
+    {
+      "task": "medium",
+      "step": 38,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 252.95896500765184
+    },
+    {
+      "task": "medium",
+      "step": 39,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 256.95896500765184
+    },
+    {
+      "task": "medium",
+      "step": 39,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 251.95896500765184
+    },
+    {
+      "task": "medium",
+      "step": 40,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 4.5794547150402485,
+        "fraud_intercepted": 4.5794547150402485
+      },
+      "cumulative_profit": 256.5384197226921
+    },
+    {
+      "task": "medium",
+      "step": 41,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "marginal_refund": -7.069974865222619
+      },
+      "cumulative_profit": 249.46844485746948
+    },
+    {
+      "task": "medium",
+      "step": 42,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 253.46844485746948
+    },
+    {
+      "task": "medium",
+      "step": 43,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "marginal_refund": -36.900201643172025
+      },
+      "cumulative_profit": 216.56824321429747
+    },
+    {
+      "task": "medium",
+      "step": 43,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 211.56824321429747
+    },
+    {
+      "task": "medium",
+      "step": 44,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 15.15292247390854,
+        "fraud_intercepted": 15.15292247390854
+      },
+      "cumulative_profit": 226.721165688206
+    },
+    {
+      "task": "medium",
+      "step": 45,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 230.721165688206
+    },
+    {
+      "task": "medium",
+      "step": 46,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 234.721165688206
+    },
+    {
+      "task": "medium",
+      "step": 47,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 242.721165688206
+    },
+    {
+      "task": "medium",
+      "step": 48,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 246.721165688206
+    },
+    {
+      "task": "medium",
+      "step": 48,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 241.721165688206
+    },
+    {
+      "task": "medium",
+      "step": 49,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 249.721165688206
+    },
+    {
+      "task": "medium",
+      "step": 50,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 257.72116568820604
+    },
+    {
+      "task": "medium",
+      "step": 50,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 252.72116568820604
+    },
+    {
+      "task": "medium",
+      "step": 51,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 22.519199395099108,
+        "fraud_intercepted": 22.519199395099108
+      },
+      "cumulative_profit": 275.24036508330516
+    },
+    {
+      "task": "medium",
+      "step": 52,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 279.24036508330516
+    },
+    {
+      "task": "medium",
+      "step": 53,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 283.24036508330516
+    },
+    {
+      "task": "medium",
+      "step": 54,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 298.24036508330516
+    },
+    {
+      "task": "medium",
+      "step": 55,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 302.24036508330516
+    },
+    {
+      "task": "medium",
+      "step": 56,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 317.24036508330516
+    },
+    {
+      "task": "medium",
+      "step": 57,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 325.24036508330516
+    },
+    {
+      "task": "medium",
+      "step": 58,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 6.358796053249989,
+        "fraud_intercepted": 6.358796053249989
+      },
+      "cumulative_profit": 331.59916113655515
+    },
+    {
+      "task": "medium",
+      "step": 59,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 339.59916113655515
+    },
+    {
+      "task": "medium",
+      "step": 60,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 343.59916113655515
+    },
+    {
+      "task": "medium",
+      "step": 61,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -48.65455282717052
+      },
+      "cumulative_profit": 298.94460830938465
+    },
+    {
+      "task": "medium",
+      "step": 62,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 16.03868032030837,
+        "fraud_intercepted": 16.03868032030837
+      },
+      "cumulative_profit": 314.983288629693
+    },
+    {
+      "task": "medium",
+      "step": 62,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 309.983288629693
+    },
+    {
+      "task": "medium",
+      "step": 63,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 30.89280082646334,
+        "fraud_intercepted": 30.89280082646334
+      },
+      "cumulative_profit": 340.8760894561563
+    },
+    {
+      "task": "medium",
+      "step": 63,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 335.8760894561563
+    },
+    {
+      "task": "medium",
+      "step": 64,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 23.1042505289991,
+        "fraud_intercepted": 23.1042505289991
+      },
+      "cumulative_profit": 358.9803399851554
+    },
+    {
+      "task": "medium",
+      "step": 65,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 27.410109983535435,
+        "fraud_intercepted": 27.410109983535435
+      },
+      "cumulative_profit": 386.39044996869086
+    },
+    {
+      "task": "medium",
+      "step": 66,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 394.39044996869086
+    },
+    {
+      "task": "medium",
+      "step": 67,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 398.39044996869086
+    },
+    {
+      "task": "medium",
+      "step": 68,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -15.721183528895768
+      },
+      "cumulative_profit": 386.6692664397951
+    },
+    {
+      "task": "medium",
+      "step": 69,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 401.6692664397951
+    },
+    {
+      "task": "medium",
+      "step": 70,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 405.6692664397951
+    },
+    {
+      "task": "medium",
+      "step": 71,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 409.6692664397951
+    },
+    {
+      "task": "medium",
+      "step": 72,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 413.6692664397951
+    },
+    {
+      "task": "medium",
+      "step": 72,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 408.6692664397951
+    },
+    {
+      "task": "medium",
+      "step": 73,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 32.98020992964763,
+        "fraud_intercepted": 32.98020992964763
+      },
+      "cumulative_profit": 441.6494763694427
+    },
+    {
+      "task": "medium",
+      "step": 73,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 436.6494763694427
+    },
+    {
+      "task": "medium",
+      "step": 74,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 5.559216735674021,
+        "fraud_intercepted": 5.559216735674021
+      },
+      "cumulative_profit": 442.2086931051167
+    },
+    {
+      "task": "medium",
+      "step": 75,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 450.2086931051167
+    },
+    {
+      "task": "hard",
+      "step": 1,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "marginal_refund": -45.955014477032755
+      },
+      "cumulative_profit": -45.955014477032755
+    },
+    {
+      "task": "hard",
+      "step": 1,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": -50.955014477032755
+    },
+    {
+      "task": "hard",
+      "step": 2,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 41.31531905027067,
+        "fraud_intercepted": 41.31531905027067
+      },
+      "cumulative_profit": -9.639695426762081
+    },
+    {
+      "task": "hard",
+      "step": 2,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": -14.639695426762081
+    },
+    {
+      "task": "hard",
+      "step": 3,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": -10.639695426762081
+    },
+    {
+      "task": "hard",
+      "step": 4,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": -6.639695426762081
+    },
+    {
+      "task": "hard",
+      "step": 5,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 8.360304573237919
+    },
+    {
+      "task": "hard",
+      "step": 6,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 12.360304573237919
+    },
+    {
+      "task": "hard",
+      "step": 7,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 27.36030457323792
+    },
+    {
+      "task": "hard",
+      "step": 7,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 22.36030457323792
+    },
+    {
+      "task": "hard",
+      "step": 8,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 39.25572252007643,
+        "fraud_intercepted": 39.25572252007643
+      },
+      "cumulative_profit": 61.61602709331435
+    },
+    {
+      "task": "hard",
+      "step": 8,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 56.61602709331435
+    },
+    {
+      "task": "hard",
+      "step": 9,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 24.083714101013495,
+        "fraud_intercepted": 24.083714101013495
+      },
+      "cumulative_profit": 80.69974119432784
+    },
+    {
+      "task": "hard",
+      "step": 9,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 75.69974119432784
+    },
+    {
+      "task": "hard",
+      "step": 10,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 15.893554805068,
+        "fraud_intercepted": 15.893554805068
+      },
+      "cumulative_profit": 91.59329599939585
+    },
+    {
+      "task": "hard",
+      "step": 10,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 86.59329599939585
+    },
+    {
+      "task": "hard",
+      "step": 11,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 12.463034807401698,
+        "fraud_intercepted": 12.463034807401698
+      },
+      "cumulative_profit": 99.05633080679755
+    },
+    {
+      "task": "hard",
+      "step": 12,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -78.82202449242853
+      },
+      "cumulative_profit": 24.23430631436902
+    },
+    {
+      "task": "hard",
+      "step": 13,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 28.23430631436902
+    },
+    {
+      "task": "hard",
+      "step": 13,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 23.23430631436902
+    },
+    {
+      "task": "hard",
+      "step": 14,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 35.11969837880907,
+        "fraud_intercepted": 35.11969837880907
+      },
+      "cumulative_profit": 58.35400469317809
+    },
+    {
+      "task": "hard",
+      "step": 15,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 5.294846046488949,
+        "fraud_intercepted": 5.294846046488949
+      },
+      "cumulative_profit": 63.64885073966704
+    },
+    {
+      "task": "hard",
+      "step": 16,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 71.64885073966704
+    },
+    {
+      "task": "hard",
+      "step": 16,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 66.64885073966704
+    },
+    {
+      "task": "hard",
+      "step": 17,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 45.22751743064825,
+        "fraud_intercepted": 45.22751743064825
+      },
+      "cumulative_profit": 111.87636817031529
+    },
+    {
+      "task": "hard",
+      "step": 18,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 119.87636817031529
+    },
+    {
+      "task": "hard",
+      "step": 18,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 114.87636817031529
+    },
+    {
+      "task": "hard",
+      "step": 19,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 32.84248347618618,
+        "fraud_intercepted": 32.84248347618618
+      },
+      "cumulative_profit": 147.71885164650146
+    },
+    {
+      "task": "hard",
+      "step": 19,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 142.71885164650146
+    },
+    {
+      "task": "hard",
+      "step": 20,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 8.081685254436298,
+        "fraud_intercepted": 8.081685254436298
+      },
+      "cumulative_profit": 150.80053690093777
+    },
+    {
+      "task": "hard",
+      "step": 20,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 145.80053690093777
+    },
+    {
+      "task": "hard",
+      "step": 21,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 17.996620422207016,
+        "fraud_intercepted": 17.996620422207016
+      },
+      "cumulative_profit": 163.7971573231448
+    },
+    {
+      "task": "hard",
+      "step": 22,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 167.7971573231448
+    },
+    {
+      "task": "hard",
+      "step": 23,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 171.7971573231448
+    },
+    {
+      "task": "hard",
+      "step": 24,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -67.87952911790154
+      },
+      "cumulative_profit": 107.91762820524326
+    },
+    {
+      "task": "hard",
+      "step": 25,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 122.91762820524326
+    },
+    {
+      "task": "hard",
+      "step": 25,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 117.91762820524326
+    },
+    {
+      "task": "hard",
+      "step": 26,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 47.69207035841751,
+        "fraud_intercepted": 47.69207035841751
+      },
+      "cumulative_profit": 165.60969856366077
+    },
+    {
+      "task": "hard",
+      "step": 27,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 3.2006203502241206,
+        "fraud_intercepted": 3.2006203502241206
+      },
+      "cumulative_profit": 168.81031891388488
+    },
+    {
+      "task": "hard",
+      "step": 28,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -89.5577706903906
+      },
+      "cumulative_profit": 83.25254822349429
+    },
+    {
+      "task": "hard",
+      "step": 28,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 78.25254822349429
+    },
+    {
+      "task": "hard",
+      "step": 29,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 82.25254822349429
+    },
+    {
+      "task": "hard",
+      "step": 30,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 97.25254822349429
+    },
+    {
+      "task": "hard",
+      "step": 31,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 112.25254822349429
+    },
+    {
+      "task": "hard",
+      "step": 31,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 107.25254822349429
+    },
+    {
+      "task": "hard",
+      "step": 32,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 25.81016664941102,
+        "fraud_intercepted": 25.81016664941102
+      },
+      "cumulative_profit": 133.0627148729053
+    },
+    {
+      "task": "hard",
+      "step": 32,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 128.0627148729053
+    },
+    {
+      "task": "hard",
+      "step": 33,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 37.21021619186155,
+        "fraud_intercepted": 37.21021619186155
+      },
+      "cumulative_profit": 165.27293106476685
+    },
+    {
+      "task": "hard",
+      "step": 33,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 160.27293106476685
+    },
+    {
+      "task": "hard",
+      "step": 34,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 47.82553959530153,
+        "fraud_intercepted": 47.82553959530153
+      },
+      "cumulative_profit": 208.0984706600684
+    },
+    {
+      "task": "hard",
+      "step": 35,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 6.188972783786912,
+        "fraud_intercepted": 6.188972783786912
+      },
+      "cumulative_profit": 214.2874434438553
+    },
+    {
+      "task": "hard",
+      "step": 35,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 209.2874434438553
+    },
+    {
+      "task": "hard",
+      "step": 36,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 40.41368486503557,
+        "fraud_intercepted": 40.41368486503557
+      },
+      "cumulative_profit": 249.70112830889087
+    },
+    {
+      "task": "hard",
+      "step": 36,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 244.70112830889087
+    },
+    {
+      "task": "hard",
+      "step": 37,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 40.04403732793293,
+        "fraud_intercepted": 40.04403732793293
+      },
+      "cumulative_profit": 284.7451656368238
+    },
+    {
+      "task": "hard",
+      "step": 37,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 279.7451656368238
+    },
+    {
+      "task": "hard",
+      "step": 38,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 21.216006894410338,
+        "fraud_intercepted": 21.216006894410338
+      },
+      "cumulative_profit": 300.9611725312341
+    },
+    {
+      "task": "hard",
+      "step": 39,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -26.288277169233098
+      },
+      "cumulative_profit": 278.67289536200104
+    },
+    {
+      "task": "hard",
+      "step": 39,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 273.67289536200104
+    },
+    {
+      "task": "hard",
+      "step": 40,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 30.12724952406614,
+        "fraud_intercepted": 30.12724952406614
+      },
+      "cumulative_profit": 303.8001448860672
+    },
+    {
+      "task": "hard",
+      "step": 41,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 318.8001448860672
+    },
+    {
+      "task": "hard",
+      "step": 41,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 313.8001448860672
+    },
+    {
+      "task": "hard",
+      "step": 42,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 29.966046989437594,
+        "fraud_intercepted": 29.966046989437594
+      },
+      "cumulative_profit": 343.7661918755048
+    },
+    {
+      "task": "hard",
+      "step": 43,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 358.7661918755048
+    },
+    {
+      "task": "hard",
+      "step": 44,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "marginal_refund": -23.16851134142281
+      },
+      "cumulative_profit": 335.597680534082
+    },
+    {
+      "task": "hard",
+      "step": 45,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 339.597680534082
+    },
+    {
+      "task": "hard",
+      "step": 46,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 7.593058212244208,
+        "fraud_intercepted": 7.593058212244208
+      },
+      "cumulative_profit": 347.1907387463262
+    },
+    {
+      "task": "hard",
+      "step": 47,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 362.1907387463262
+    },
+    {
+      "task": "hard",
+      "step": 47,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 357.1907387463262
+    },
+    {
+      "task": "hard",
+      "step": 48,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 17.04728265621473,
+        "fraud_intercepted": 17.04728265621473
+      },
+      "cumulative_profit": 374.23802140254094
+    },
+    {
+      "task": "hard",
+      "step": 49,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 24.56461098670385,
+        "fraud_intercepted": 24.56461098670385
+      },
+      "cumulative_profit": 398.80263238924476
+    },
+    {
+      "task": "hard",
+      "step": 50,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -54.206783054442546
+      },
+      "cumulative_profit": 348.5958493348022
+    },
+    {
+      "task": "hard",
+      "step": 50,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 343.5958493348022
+    },
+    {
+      "task": "hard",
+      "step": 51,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 43.17523434796881,
+        "fraud_intercepted": 43.17523434796881
+      },
+      "cumulative_profit": 386.771083682771
+    },
+    {
+      "task": "hard",
+      "step": 52,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 46.86105131233068,
+        "fraud_intercepted": 46.86105131233068
+      },
+      "cumulative_profit": 433.6321349951017
+    },
+    {
+      "task": "hard",
+      "step": 53,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 441.6321349951017
+    },
+    {
+      "task": "hard",
+      "step": 53,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 436.6321349951017
+    },
+    {
+      "task": "hard",
+      "step": 54,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 9.393273900546651,
+        "fraud_intercepted": 9.393273900546651
+      },
+      "cumulative_profit": 446.02540889564835
+    },
+    {
+      "task": "hard",
+      "step": 55,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 40.162991109091266,
+        "fraud_intercepted": 40.162991109091266
+      },
+      "cumulative_profit": 486.1884000047396
+    },
+    {
+      "task": "hard",
+      "step": 56,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -10.595483167255304
+      },
+      "cumulative_profit": 479.5929168374843
+    },
+    {
+      "task": "hard",
+      "step": 57,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 483.5929168374843
+    },
+    {
+      "task": "hard",
+      "step": 58,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 491.5929168374843
+    },
+    {
+      "task": "hard",
+      "step": 59,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 46.870859355084654
+      },
+      "cumulative_profit": 538.463776192569
+    },
+    {
+      "task": "hard",
+      "step": 60,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 47.60853834018822,
+        "fraud_intercepted": 47.60853834018822
+      },
+      "cumulative_profit": 586.0723145327572
+    },
+    {
+      "task": "hard",
+      "step": 61,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -69.23744378033398
+      },
+      "cumulative_profit": 520.8348707524233
+    },
+    {
+      "task": "hard",
+      "step": 62,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 22.67339222632677,
+        "fraud_intercepted": 22.67339222632677
+      },
+      "cumulative_profit": 543.50826297875
+    },
+    {
+      "task": "hard",
+      "step": 62,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 538.50826297875
+    },
+    {
+      "task": "hard",
+      "step": 63,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 44.08080119107952,
+        "fraud_intercepted": 44.08080119107952
+      },
+      "cumulative_profit": 582.5890641698296
+    },
+    {
+      "task": "hard",
+      "step": 63,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 577.5890641698296
+    },
+    {
+      "task": "hard",
+      "step": 64,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 32.856125762381055,
+        "fraud_intercepted": 32.856125762381055
+      },
+      "cumulative_profit": 610.4451899322107
+    },
+    {
+      "task": "hard",
+      "step": 65,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 39.06162909391871,
+        "fraud_intercepted": 39.06162909391871
+      },
+      "cumulative_profit": 649.5068190261294
+    },
+    {
+      "task": "hard",
+      "step": 65,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 644.5068190261294
+    },
+    {
+      "task": "hard",
+      "step": 66,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 3.5312379337055475,
+        "fraud_intercepted": 3.5312379337055475
+      },
+      "cumulative_profit": 648.038056959835
+    },
+    {
+      "task": "hard",
+      "step": 67,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 652.038056959835
+    },
+    {
+      "task": "hard",
+      "step": 68,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -21.77464685046743
+      },
+      "cumulative_profit": 634.2634101093676
+    },
+    {
+      "task": "hard",
+      "step": 69,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 649.2634101093676
+    },
+    {
+      "task": "hard",
+      "step": 70,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 653.2634101093676
+    },
+    {
+      "task": "hard",
+      "step": 70,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 648.2634101093676
+    },
+    {
+      "task": "hard",
+      "step": 71,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 49.02133179815544,
+        "fraud_intercepted": 49.02133179815544
+      },
+      "cumulative_profit": 697.284741907523
+    },
+    {
+      "task": "hard",
+      "step": 72,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -94.71039644869332
+      },
+      "cumulative_profit": 606.5743454588296
+    },
+    {
+      "task": "hard",
+      "step": 72,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 601.5743454588296
+    },
+    {
+      "task": "hard",
+      "step": 73,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 8.273510506082841,
+        "fraud_intercepted": 8.273510506082841
+      },
+      "cumulative_profit": 609.8478559649125
+    },
+    {
+      "task": "hard",
+      "step": 73,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 604.8478559649125
+    },
+    {
+      "task": "hard",
+      "step": 74,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 14.62570174328161,
+        "fraud_intercepted": 14.62570174328161
+      },
+      "cumulative_profit": 619.4735577081941
+    },
+    {
+      "task": "hard",
+      "step": 74,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 614.4735577081941
+    },
+    {
+      "task": "hard",
+      "step": 75,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 21.030372362006162,
+        "fraud_intercepted": 21.030372362006162
+      },
+      "cumulative_profit": 635.5039300702002
+    },
+    {
+      "task": "hard",
+      "step": 75,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 630.5039300702002
+    },
+    {
+      "task": "hard",
+      "step": 76,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 24.23250107941835,
+        "fraud_intercepted": 24.23250107941835
+      },
+      "cumulative_profit": 654.7364311496186
+    },
+    {
+      "task": "hard",
+      "step": 76,
+      "action": 3,
+      "reason": "fallback: uncertain risk, inspecting",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 649.7364311496186
+    },
+    {
+      "task": "hard",
+      "step": 77,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 32.96921976953055,
+        "fraud_intercepted": 32.96921976953055
+      },
+      "cumulative_profit": 682.7056509191492
+    },
+    {
+      "task": "hard",
+      "step": 78,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 18.67220938806246,
+        "fraud_intercepted": 18.67220938806246
+      },
+      "cumulative_profit": 701.3778603072117
+    },
+    {
+      "task": "hard",
+      "step": 79,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 705.3778603072117
+    },
+    {
+      "task": "hard",
+      "step": 80,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "marginal_refund": -5.437077847889089
+      },
+      "cumulative_profit": 699.9407824593226
+    },
+    {
+      "task": "hard",
+      "step": 81,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 37.3919357695292,
+        "fraud_intercepted": 37.3919357695292
+      },
+      "cumulative_profit": 737.3327182288517
+    },
+    {
+      "task": "hard",
+      "step": 82,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 30.441179989308964,
+        "fraud_intercepted": 30.441179989308964
+      },
+      "cumulative_profit": 767.7738982181606
+    },
+    {
+      "task": "hard",
+      "step": 82,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 762.7738982181606
+    },
+    {
+      "task": "hard",
+      "step": 83,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 16.237113986117546,
+        "fraud_intercepted": 16.237113986117546
+      },
+      "cumulative_profit": 779.0110122042781
+    },
+    {
+      "task": "hard",
+      "step": 84,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 11.243825271509833
+      },
+      "cumulative_profit": 790.254837475788
+    },
+    {
+      "task": "hard",
+      "step": 84,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 785.254837475788
+    },
+    {
+      "task": "hard",
+      "step": 85,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 49.52576155198736,
+        "fraud_intercepted": 49.52576155198736
+      },
+      "cumulative_profit": 834.7805990277753
+    },
+    {
+      "task": "hard",
+      "step": 86,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 838.7805990277753
+    },
+    {
+      "task": "hard",
+      "step": 86,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 833.7805990277753
+    },
+    {
+      "task": "hard",
+      "step": 87,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 25.019679577677735,
+        "fraud_intercepted": 25.019679577677735
+      },
+      "cumulative_profit": 858.8002786054531
+    },
+    {
+      "task": "hard",
+      "step": 88,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -64.48369264688898
+      },
+      "cumulative_profit": 798.316585958564
+    },
+    {
+      "task": "hard",
+      "step": 88,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 793.316585958564
+    },
+    {
+      "task": "hard",
+      "step": 89,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 27.436844327822257,
+        "fraud_intercepted": 27.436844327822257
+      },
+      "cumulative_profit": 820.7534302863862
+    },
+    {
+      "task": "hard",
+      "step": 90,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 824.7534302863862
+    },
+    {
+      "task": "hard",
+      "step": 91,
+      "action": 1,
+      "reason": "fallback: high risk or expired",
+      "reward_breakdown": {
+        "rejection_gain": 27.03914100922431,
+        "fraud_intercepted": 27.03914100922431
+      },
+      "cumulative_profit": 851.7925712956105
+    },
+    {
+      "task": "hard",
+      "step": 91,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 846.7925712956105
+    },
+    {
+      "task": "hard",
+      "step": 92,
+      "action": 1,
+      "reason": "Hybrid Rule: Extreme fraud risk detected. Auto-rejecting.",
+      "reward_breakdown": {
+        "rejection_gain": 17.603926144870645,
+        "fraud_intercepted": 17.603926144870645
+      },
+      "cumulative_profit": 864.3964974404812
+    },
+    {
+      "task": "hard",
+      "step": 92,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 859.3964974404812
+    },
+    {
+      "task": "hard",
+      "step": 93,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 863.3964974404812
+    },
+    {
+      "task": "hard",
+      "step": 93,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 858.3964974404812
+    },
+    {
+      "task": "hard",
+      "step": 94,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 8.0
+      },
+      "cumulative_profit": 866.3964974404812
+    },
+    {
+      "task": "hard",
+      "step": 95,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 870.3964974404812
+    },
+    {
+      "task": "hard",
+      "step": 96,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0,
+        "partial_fraud_loss": -98.48865198029921
+      },
+      "cumulative_profit": 775.907845460182
+    },
+    {
+      "task": "hard",
+      "step": 96,
+      "action": 3,
+      "reason": "Hybrid Rule: Ambiguous risk. Triggering multi-step inspection.",
+      "reward_breakdown": {
+        "inspection_cost": -5.0
+      },
+      "cumulative_profit": 770.907845460182
+    },
+    {
+      "task": "hard",
+      "step": 97,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 774.907845460182
+    },
+    {
+      "task": "hard",
+      "step": 98,
+      "action": 2,
+      "reason": "fallback: ambiguous",
+      "reward_breakdown": {
+        "partial_settlement": 4.0
+      },
+      "cumulative_profit": 778.907845460182
+    },
+    {
+      "task": "hard",
+      "step": 99,
+      "action": 0,
+      "reason": "fallback: valid reason",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 793.907845460182
+    },
+    {
+      "task": "hard",
+      "step": 100,
+      "action": 0,
+      "reason": "Hybrid Rule: Loyal customer with low risk. Auto-approving.",
+      "reward_breakdown": {
+        "customer_happy": 15.0
+      },
+      "cumulative_profit": 808.907845460182
+    }
+  ]
+}
